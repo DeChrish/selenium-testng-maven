@@ -10,17 +10,14 @@ import org.testng.annotations.Test;
 
 public class YahooTitleTest {
 	private WebDriver driver = null;
-
-	// public String URL = "http://www.nguoianphu.com";
+	private String URL = "https://www.yahoo.com";
+	private String TITLE = "Yahoo";
 
 	@Test
-	@Parameters({ "myURL", "myTitle" })
-	public void testEasy(String myURL, String myTitle) {
-		driver.get(myURL);
+	public void testEasy() {
+		driver.get(URL);
 		String title = driver.getTitle();
-		Assert.assertTrue(title.contains(myTitle));
-		// Assert.assertTrue(title
-		// .contains("Home page Nguoi An Phu huyen An Phu tinh An Giang"));
+		Assert.assertTrue(title.contains(TITLE));
 	}
 
 	@BeforeTest

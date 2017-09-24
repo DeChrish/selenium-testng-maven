@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="none">
+<suite name="Suite" parallel="classes" thread-count="2">
 	<test name="Test">
 		<parameter name="myURL" value="http://www.google.com/" />
 		<parameter name="myTitle" value="Google" />
 		<classes>
 			<class name="com.GoogleTestTitle" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="Yahoo Test">
-		<parameter name="myURL" value="http://www.yahoo.com/" />
-		<parameter name="myTitle" value="Yahoo" />
-		<classes>
 			<class name="com.YahooTitleTest" />
 		</classes>
 	</test> <!-- Test -->
