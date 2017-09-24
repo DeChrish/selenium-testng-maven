@@ -1,4 +1,3 @@
-### selenium-testng-maven
 # Seleneium TestNG Maven project
 
 [![Circle CI](https://circleci.com/gh/nguoianphu/selenium-testng-maven.svg?style=svg)](https://circleci.com/gh/nguoianphu/selenium-testng-maven)
