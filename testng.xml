@@ -3,10 +3,16 @@
 <suite name="Suite" parallel="none">
 	<test name="Test">
 		<parameter name="myURL" value="http://www.google.com/" />
-		<parameter name="myTitle"
-			value="Google" />
+		<parameter name="myTitle" value="Google" />
 		<classes>
-			<class name="com.TestTitle" />
+			<class name="com.GoogleTestTitle" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Yahoo Test">
+		<parameter name="myURL" value="http://www.yahoo.com/" />
+		<parameter name="myTitle" value="Yahoo" />
+		<classes>
+			<class name="com.YahooTitleTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

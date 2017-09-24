@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 
-public class TestTitle {
+public class GoogleTestTitle {
 	private WebDriver driver = null;
 
 	// public String URL = "http://www.nguoianphu.com";
