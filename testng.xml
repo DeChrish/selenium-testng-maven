@@ -5,7 +5,7 @@
 		<parameter name="myURL" value="http://www.google.com/" />
 		<parameter name="myTitle" value="Google" />
 		<classes>
-			<class name="com.TestNGLogin" />
+			<class name="com.GoogleTestTitle" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
