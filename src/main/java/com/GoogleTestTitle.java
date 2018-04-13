@@ -22,7 +22,7 @@ public class GoogleTestTitle {
 
 	@BeforeTest
 	public void beforeTest() throws Exception {
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 	}
 
 	@AfterTest
